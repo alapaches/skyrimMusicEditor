@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/ico/mainIcon.ico</file>
+        <file>images/ico/play.ico</file>
+        <file>images/ico/stop.ico</file>
+        <file>images/skyrim.jpg</file>
+        <file>images/ico/folder.ico</file>
+        <file>images/loader.gif</file>
+    </qresource>
+    <qresource prefix="/pdf"/>
+</RCC>

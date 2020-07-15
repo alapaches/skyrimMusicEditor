@@ -1,0 +1,109 @@
+<RCC>
+    <qresource prefix="/audio">
+        <file>audio/combat/Blood and Steel (ending).mp3</file>
+        <file>audio/combat/Blood and Steel (Tutorial Version).mp3</file>
+        <file>audio/combat/Blood and Steel.mp3</file>
+        <file>audio/combat/Caught off Guard (ending).mp3</file>
+        <file>audio/combat/Caught off Guard.mp3</file>
+        <file>audio/combat/Death or Sovngarde (ending).mp3</file>
+        <file>audio/combat/Death or Sovngarde.mp3</file>
+        <file>audio/combat/Dragon Fight (ending).mp3</file>
+        <file>audio/combat/Dragon Fight (Tutorial Version).mp3</file>
+        <file>audio/combat/Dragon Fight.mp3</file>
+        <file>audio/combat/One They Fear (ending).mp3</file>
+        <file>audio/combat/One They Fear.mp3</file>
+        <file>audio/combat/Steel on Steel (ending).mp3</file>
+        <file>audio/combat/Steel on Steel.mp3</file>
+        <file>audio/combat/Tooth and Claw (ending).mp3</file>
+        <file>audio/combat/Tooth and Claw.mp3</file>
+        <file>audio/combat/Watch the Skies (ending).mp3</file>
+        <file>audio/combat/Watch the Skies.mp3</file>
+        <file>audio/dread/Discover 01.mp3</file>
+        <file>audio/dread/Discover 02.mp3</file>
+        <file>audio/dread/Discover 03.mp3</file>
+        <file>audio/dread/Discover 04.mp3</file>
+        <file>audio/dread/Dread 01.mp3</file>
+        <file>audio/dread/Dread 02.mp3</file>
+        <file>audio/dread/Dread 03.mp3</file>
+        <file>audio/dread/Dread 04.mp3</file>
+        <file>audio/dungeon/Beneath the Ice.mp3</file>
+        <file>audio/dungeon/Breathe Darkness.mp3</file>
+        <file>audio/dungeon/Death in the Darkness.mp3</file>
+        <file>audio/dungeon/Into Darkness.mp3</file>
+        <file>audio/dungeon/Shadows and Echoes.mp3</file>
+        <file>audio/dungeon/Shattered Shields.mp3</file>
+        <file>audio/dungeon/Silence Unbroken.mp3</file>
+        <file>audio/dungeon/Silent Footsteps.mp3</file>
+        <file>audio/dungeon/Towers and Shadows.mp3</file>
+        <file>audio/explore/Aurora.mp3</file>
+        <file>audio/explore/Dawn.mp3</file>
+        <file>audio/explore/Distant Horizons.mp3</file>
+        <file>audio/explore/Far Horizons.mp3</file>
+        <file>audio/explore/From Past to Present.mp3</file>
+        <file>audio/explore/Frostfall.mp3</file>
+        <file>audio/explore/Journey's End.mp3</file>
+        <file>audio/explore/Kyne's Peace.mp3</file>
+        <file>audio/explore/Masser.mp3</file>
+        <file>audio/explore/Secunda.mp3</file>
+        <file>audio/explore/Sky Above, Voice Within.mp3</file>
+        <file>audio/explore/Solitude.mp3</file>
+        <file>audio/explore/Standing Stones.mp3</file>
+        <file>audio/explore/The Gathering Storm.mp3</file>
+        <file>audio/explore/The Jerall Mountains.mp3</file>
+        <file>audio/explore/The White River.mp3</file>
+        <file>audio/explore/Tundra.mp3</file>
+        <file>audio/explore/Unbroken Road.mp3</file>
+        <file>audio/explore/Under an Ancient Sun.mp3</file>
+        <file>audio/explore/Wind Guide You.mp3</file>
+        <file>audio/other/Discover Location 01.mp3</file>
+        <file>audio/other/Discover Location 02.mp3</file>
+        <file>audio/other/Discover Location 03.mp3</file>
+        <file>audio/other/Dragonsreach.mp3</file>
+        <file>audio/other/Imperial Throne.mp3</file>
+        <file>audio/other/Level up 01.mp3</file>
+        <file>audio/other/Level up 02.mp3</file>
+        <file>audio/other/Level up 03.mp3</file>
+        <file>audio/other/Seven Thousand Steps.mp3</file>
+        <file>audio/other/Sovngarde.mp3</file>
+        <file>audio/reveal/Reveal 01.mp3</file>
+        <file>audio/reveal/Reveal 02.mp3</file>
+        <file>audio/reveal/Reveal 03.mp3</file>
+        <file>audio/reveal/Reveal 04.mp3</file>
+        <file>audio/reward/Reward 01.mp3</file>
+        <file>audio/reward/Reward 02.mp3</file>
+        <file>audio/reward/Reward 03.mp3</file>
+        <file>audio/reward/Reward 04.mp3</file>
+        <file>audio/shouts/fus_v1.mp3</file>
+        <file>audio/shouts/fus_v2.mp3</file>
+        <file>audio/shouts/ro.mp3</file>
+        <file>audio/shouts/rodah.mp3</file>
+        <file>audio/special/Awake.mp3</file>
+        <file>audio/special/Before the Storm.mp3</file>
+        <file>audio/special/Dragonborn.mp3</file>
+        <file>audio/special/Word of Power 01.mp3</file>
+        <file>audio/special/Word of Power 02.mp3</file>
+        <file>audio/special/Word of Power 03.mp3</file>
+        <file>audio/special/failure/Failure 01.mp3</file>
+        <file>audio/special/failure/Failure 02.mp3</file>
+        <file>audio/special/failure/Failure 03.mp3</file>
+        <file>audio/special/failure/Failure 04.mp3</file>
+        <file>audio/special/failure/Failure 05.mp3</file>
+        <file>audio/special/failure/Failure 06.mp3</file>
+        <file>audio/special/failure/Failure 07.mp3</file>
+        <file>audio/stinger/Stinger 01.mp3</file>
+        <file>audio/stinger/Stinger 02.mp3</file>
+        <file>audio/stinger/Stinger 03.mp3</file>
+        <file>audio/stinger/Stinger 04.mp3</file>
+        <file>audio/tavern/A Chance Meeting.mp3</file>
+        <file>audio/tavern/A Winter's Tale.mp3</file>
+        <file>audio/tavern/Around the Fire.mp3</file>
+        <file>audio/tavern/Out of the Cold.mp3</file>
+        <file>audio/tavern/The Bannered Mare.mp3</file>
+        <file>audio/town/Ancient Stones.mp3</file>
+        <file>audio/town/Discover Village 01.mp3</file>
+        <file>audio/town/Discover Village 02.mp3</file>
+        <file>audio/town/Discover Village 03.mp3</file>
+        <file>audio/town/The City Gates.mp3</file>
+        <file>audio/town/The Streets of Whiterun.mp3</file>
+    </qresource>
+</RCC>
