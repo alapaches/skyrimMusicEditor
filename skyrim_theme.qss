@@ -1,0 +1,524 @@
+/* ============================================================
+   Skyrim Music Editor - Theme moderne
+   Anthracite neutre + accent dore unique (#d4a94a)
+   ============================================================ */
+
+QWidget {
+    background-color: #17171a;
+    color: #e8e8ea;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 13px;
+}
+
+QMainWindow {
+    background-color: #17171a;
+}
+
+/* --- Sidebar --- */
+QListWidget#categorySidebar {
+    background-color: #121214;
+    border: none;
+    border-right: 1px solid #26262b;
+    padding: 12px 8px;
+    outline: none;
+}
+
+QListWidget#categorySidebar::item {
+    color: #a1a1aa;
+    padding: 8px 10px;
+    border-radius: 4px;
+    margin: 1px 0;
+}
+
+QListWidget#categorySidebar::item:selected {
+    background-color: #26262b;
+    color: #f0f0f2;
+}
+
+QListWidget#categorySidebar::item:hover:!selected {
+    background-color: #1a1a1e;
+    color: #d0d0d5;
+}
+
+QListWidget#categorySidebar::item:disabled {
+    color: #6e6e78;
+    font-size: 11px;
+    padding: 14px 10px 4px;
+    background: transparent;
+}
+
+/* --- Bandeau d'en-tete --- */
+QWidget#headerBar {
+    background-color: #17171a;
+    border-bottom: 1px solid #26262b;
+}
+
+QLabel#categoryTitle {
+    color: #f0f0f2;
+    font-size: 15px;
+    background: transparent;
+}
+
+QLabel#categorySubtitle {
+    color: #6e6e78;
+    font-size: 12px;
+    background: transparent;
+}
+
+/* --- Onglets masques, pane sans cadre --- */
+QTabWidget::pane {
+    border: none;
+    background: transparent;
+}
+
+QTabBar::tab {
+    background: transparent;
+    border: none;
+    padding: 0;
+    width: 0;
+    height: 0;
+}
+
+/* --- Tables --- */
+QTableWidget {
+    background-color: #17171a;
+    gridline-color: transparent;
+    border: none;
+    color: #e8e8ea;
+    outline: none;
+}
+
+QTableWidget::item {
+    border: none;
+}
+
+QHeaderView {
+    background-color: #17171a;
+    border: none;
+}
+
+QHeaderView::section {
+    background-color: #17171a;
+    color: #6e6e78;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #26262b;
+    font-size: 11px;
+    font-weight: normal;
+    text-align: left;
+}
+
+QTableCornerButton::section {
+    background-color: #17171a;
+    border: none;
+}
+
+/* --- Boutons dans les cellules : icone seule --- */
+QTableWidget QPushButton {
+    background: transparent;
+    border: none;
+    padding: 4px;
+    margin: 0;
+}
+
+QTableWidget QPushButton:hover {
+    background-color: #2e2e35;
+    border-radius: 4px;
+}
+
+QTableWidget QPushButton:pressed {
+    background-color: #26262b;
+}
+
+/* --- Boutons standards --- */
+QPushButton {
+    background-color: #26262b;
+    color: #d0d0d5;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 13px;
+}
+
+QPushButton:hover {
+    background-color: #32323a;
+    color: #f0f0f2;
+}
+
+QPushButton:pressed {
+    background-color: #1d1d21;
+}
+
+QPushButton:disabled {
+    background-color: #1d1d21;
+    color: #4a4a52;
+}
+
+/* --- GroupBox --- */
+QGroupBox {
+    border: 1px solid #26262b;
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 14px 12px 12px 12px;
+    background-color: #1a1a1e;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    left: 12px;
+    padding: 0 6px;
+    color: #6e6e78;
+    font-size: 11px;
+    background-color: #17171a;
+}
+
+/* --- Radio / Checkbox --- */
+QRadioButton, QCheckBox {
+    color: #d0d0d5;
+    spacing: 8px;
+    background: transparent;
+    padding: 3px;
+}
+
+QRadioButton::indicator, QCheckBox::indicator {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #4a4a52;
+    background-color: #1d1d21;
+}
+
+QRadioButton::indicator {
+    border-radius: 7px;
+}
+
+QCheckBox::indicator {
+    border-radius: 3px;
+}
+
+QRadioButton::indicator:checked, QCheckBox::indicator:checked {
+    background-color: #d4a94a;
+    border-color: #d4a94a;
+}
+
+QRadioButton::indicator:hover, QCheckBox::indicator:hover {
+    border-color: #6e6e78;
+}
+
+/* --- Champs texte --- */
+QLineEdit {
+    background-color: #1d1d21;
+    color: #d0d0d5;
+    border: 1px solid #26262b;
+    border-radius: 6px;
+    padding: 7px 10px;
+    selection-background-color: #d4a94a;
+    selection-color: #17171a;
+}
+
+QLineEdit:focus {
+    border-color: #d4a94a;
+}
+
+/* --- Scrollbars --- */
+QScrollBar:vertical {
+    background: transparent;
+    width: 10px;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #32323a;
+    border-radius: 5px;
+    min-height: 30px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #4a4a52;
+}
+
+QScrollBar:horizontal {
+    background: transparent;
+    height: 10px;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #32323a;
+    border-radius: 5px;
+    min-width: 30px;
+}
+
+QScrollBar::add-line, QScrollBar::sub-line,
+QScrollBar::add-page, QScrollBar::sub-page {
+    background: none;
+    border: none;
+    width: 0;
+    height: 0;
+}
+
+/* --- Barre de statut --- */
+QStatusBar {
+    background-color: #121214;
+    border-top: 1px solid #26262b;
+    color: #6e6e78;
+}
+
+QStatusBar::item {
+    border: none;
+}
+
+QLabel#pathStatus {
+    color: #6e6e78;
+    font-size: 11px;
+    font-family: Consolas, monospace;
+    background: transparent;
+    padding-left: 8px;
+}
+
+QLabel#versionStatus {
+    color: #7bc98a;
+    font-size: 11px;
+    background: transparent;
+    padding-right: 10px;
+}
+
+/* --- Menu --- */
+QMenuBar {
+    background-color: #121214;
+    color: #a1a1aa;
+    border-bottom: 1px solid #26262b;
+    padding: 2px;
+}
+
+QMenuBar::item {
+    padding: 6px 12px;
+    background: transparent;
+    border-radius: 4px;
+}
+
+QMenuBar::item:selected {
+    background-color: #26262b;
+    color: #f0f0f2;
+}
+
+QMenu {
+    background-color: #1d1d21;
+    color: #d0d0d5;
+    border: 1px solid #32323a;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+QMenu::item {
+    padding: 7px 24px 7px 12px;
+    border-radius: 4px;
+}
+
+QMenu::item:selected {
+    background-color: #2e2e35;
+    color: #f0f0f2;
+}
+
+/* --- Dialogues --- */
+QMessageBox, QDialog {
+    background-color: #1a1a1e;
+}
+
+QMessageBox QLabel {
+    color: #e8e8ea;
+    background: transparent;
+}
+
+QMessageBox QPushButton {
+    min-width: 80px;
+}
+
+QToolTip {
+    background-color: #26262b;
+    color: #e8e8ea;
+    border: 1px solid #32323a;
+    border-radius: 4px;
+    padding: 5px 8px;
+}
+
+/* ============================================================
+   Ecran Shouts : combos de voix, pied de page
+   ============================================================ */
+
+QLabel#fieldLabel {
+    color: #6e6e78;
+    font-size: 12px;
+    background: transparent;
+    padding-right: 2px;
+}
+
+QComboBox#voiceCombo {
+    background-color: #26262b;
+    color: #d0d0d5;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    min-width: 90px;
+}
+
+QComboBox#voiceCombo:hover {
+    background-color: #32323a;
+    color: #f0f0f2;
+}
+
+QComboBox#voiceCombo::drop-down {
+    border: none;
+    width: 18px;
+}
+
+QComboBox#voiceCombo::down-arrow {
+    image: none;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #6e6e78;
+    width: 0;
+    height: 0;
+    margin-right: 6px;
+}
+
+QComboBox#voiceCombo QAbstractItemView {
+    background-color: #1d1d21;
+    color: #d0d0d5;
+    border: 1px solid #32323a;
+    border-radius: 6px;
+    padding: 4px;
+    selection-background-color: #2e2e35;
+    selection-color: #f0f0f2;
+    outline: none;
+}
+
+QWidget#footerBar {
+    background-color: #17171a;
+    border-top: 1px solid #26262b;
+}
+
+QTableWidget#shoutsTable {
+    background-color: #17171a;
+    border: none;
+    outline: none;
+}
+
+QTableWidget#shoutsTable::item:selected {
+    background-color: #26262b;
+    color: #f0f0f2;
+}
+
+/* ============================================================
+   Ecran Bards : bouton texte discret (Lyrics)
+   ============================================================ */
+
+QPushButton#linkButton {
+    background: transparent;
+    border: none;
+    color: #6e6e78;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+QPushButton#linkButton:hover {
+    background-color: #2e2e35;
+    color: #d4a94a;
+}
+
+QPushButton#linkButton:pressed {
+    background-color: #26262b;
+}
+
+/* ============================================================
+   Changelog dialog
+   ============================================================ */
+
+QDialog#changelogDialog {
+    background-color: #17171a;
+}
+
+QLabel#changelogTitle {
+    color: #f0f0f2;
+    font-size: 17px;
+    font-weight: bold;
+    background: transparent;
+}
+
+QLabel#changelogSubtitle {
+    color: #6e6e78;
+    font-size: 13px;
+    background: transparent;
+}
+
+QTextBrowser#changelogContent {
+    background-color: #1a1a1e;
+    color: #d0d0d5;
+    border: 1px solid #26262b;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 13px;
+}
+
+QCheckBox#changelogCheck {
+    color: #6e6e78;
+    font-size: 12px;
+    background: transparent;
+}
+
+QPushButton#changelogCloseBtn {
+    background-color: #d4a94a;
+    color: #17171a;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-weight: bold;
+}
+
+QPushButton#changelogCloseBtn:hover {
+    background-color: #e0b85a;
+}
+
+QPushButton#changelogCloseBtn:pressed {
+    background-color: #c49a3a;
+}
+
+/* ============================================================
+   Shout replace dialog
+   ============================================================ */
+
+QDialog#shoutReplaceDialog {
+    background-color: #1a1a1e;
+}
+
+QLabel#srdTitle {
+    color: #f0f0f2;
+    font-size: 15px;
+    font-weight: bold;
+    background: transparent;
+}
+
+QLabel#srdSubtitle {
+    color: #6e6e78;
+    font-size: 13px;
+    background: transparent;
+}
+
+QLabel#srdProgress {
+    color: #6e6e78;
+    font-size: 12px;
+    background: transparent;
+}
+
+QPushButton#srdCancelBtn {
+    background-color: #26262b;
+    color: #a1a1aa;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-size: 13px;
+}
+
+QPushButton#srdCancelBtn:hover {
+    background-color: #32323a;
+    color: #f0f0f2;
+}

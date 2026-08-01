@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/audio">
+        <file>audio/dlc01/The Eclipse.mp3</file>
+        <file>audio/dlc01/dungeon/Castle Volkihar 01.mp3</file>
+        <file>audio/dlc01/dungeon/Castle Volkihar 02.mp3</file>
+        <file>audio/dlc01/dungeon/Soul Cairn.mp3</file>
+        <file>audio/dlc01/explore/falmervalley/Forgotten Vale.mp3</file>
+        <file>audio/dlc01/explore/soulcairn/palette/(Skyrim Atmospheres) Soul Cairn A1.mp3</file>
+        <file>audio/dlc01/explore/soulcairn/palette/(Skyrim Atmospheres) Soul Cairn A2.mp3</file>
+        <file>audio/dlc01/explore/soulcairn/palette/(Skyrim Atmospheres) Soul Cairn A3.mp3</file>
+        <file>audio/dlc01/explore/soulcairn/palette/(Skyrim Atmospheres) Soul Cairn A4.mp3</file>
+        <file>audio/dlc01/explore/soulcairn/palette/(Skyrim Atmospheres) Soul Cairn A5.mp3</file>
+        <file>audio/dlc01/explore/soulcairn/palette/(Skyrim Atmospheres) Soul Cairn B1.mp3</file>
+        <file>audio/dlc01/explore/soulcairn/palette/(Skyrim Atmospheres) Soul Cairn B2.mp3</file>
+        <file>audio/dlc01/explore/soulcairn/palette/(Skyrim Atmospheres) Soul Cairn B3.mp3</file>
+    </qresource>
+</RCC>
