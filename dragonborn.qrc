@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/audio">
+        <file>audio/dragonborn/audio/(Morrowind) Blessing of Vivec.mp3</file>
+        <file>audio/dragonborn/audio/(Morrowind) Caprice.mp3</file>
+        <file>audio/dragonborn/audio/(Morrowind) Over the Next Hill.mp3</file>
+        <file>audio/dragonborn/audio/(Morrowind) Peaceful Waters.mp3</file>
+        <file>audio/dragonborn/audio/(Morrowind) Shed Your Travails.mp3</file>
+        <file>audio/dragonborn/audio/(Morrowind) Silt Sunrise.mp3</file>
+        <file>audio/dragonborn/audio/(Morrowind) The Road Most Travelled.mp3</file>
+        <file>audio/dragonborn/audio/Apocrypha - Realm of Knowledge.mp3</file>
+        <file>audio/dragonborn/audio/Apocrypha.mp3</file>
+        <file>audio/dragonborn/audio/Ashfall.mp3</file>
+        <file>audio/dragonborn/audio/Telvanni Tower.mp3</file>
+        <file>audio/dragonborn/audio/The Moesring Mountains.mp3</file>
+        <file>audio/dragonborn/audio/Under Redoran Watch.mp3</file>
+        <file>audio/dragonborn/audio/Welcome, Outlander.mp3</file>
+    </qresource>
+</RCC>
