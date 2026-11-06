@@ -65,6 +65,9 @@ MainWindow::MainWindow(QWidget *parent)
 {
     language = QSettings("SkyrimMusicEditor", "SkyrimMusicEditor")
                    .value("app/language", "en").toString();
+    if (language != "en" && translator.load(":/translation_" + language + ".qm")) {
+        qApp->installTranslator(&translator);
+    }
 
     player = new QMediaPlayer(this);
     player->setAudioOutput(new QAudioOutput(this));
@@ -1164,7 +1167,9 @@ void MainWindow::SetupBardsScreen()
 void MainWindow::SetLanguage(const QString &lang)
 {
     language = lang;
-    if (translator.load(":/translation_" + lang + ".qm")) {
+    // L'anglais est la langue des sources : il suffit de retirer la traduction.
+    qApp->removeTranslator(&translator);
+    if (lang != "en" && translator.load(":/translation_" + lang + ".qm")) {
         qApp->installTranslator(&translator);
     }
     ui->retranslateUi(this);

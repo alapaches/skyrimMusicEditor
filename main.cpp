@@ -30,6 +30,9 @@ int main(int argc, char *argv[])
         changelog.exec();
     }
 
+    // MainWindow gere ensuite sa propre traduction (changement de langue a chaud).
+    a.removeTranslator(&appTranslator);
+
     MainWindow w;
     w.show();
     return a.exec();
