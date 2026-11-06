@@ -159,7 +159,7 @@
     <message>
         <location filename="mainwindow.ui" line="999"/>
         <source>Kyne&apos;s Peace</source>
-        <translation>Paix de Kynareth</translation>
+        <translation>Paix de Kyne</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1148"/>
