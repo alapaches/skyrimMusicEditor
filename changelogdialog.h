@@ -108,6 +108,18 @@ private:
     QString defaultChangelog() const
     {
         return R"(
+            <h3 style="color: #d4a94a;">Version 3.2</h3>
+            <ul>
+                <li>Encoding errors are now reported instead of a false "Success"</li>
+                <li>Replacing an already replaced file now works</li>
+                <li>"Preview" in the replacement dialog now plays the new file</li>
+                <li>Restoring Dragonborn music no longer deletes files before confirmation</li>
+                <li>Restore only removes files managed by the application</li>
+                <li>Game folder is validated; actions ask for it when missing</li>
+                <li>"Launch Skyrim" button now works (SKSE supported)</li>
+                <li>Temporary files are written to the user temp folder (works when installed in Program Files)</li>
+                <li>Lyrics open in the selected language at startup</li>
+            </ul>
             <h3 style="color: #d4a94a;">Version 3.0</h3>
             <ul>
                 <li>Completely redesigned interface with modern dark theme</li>

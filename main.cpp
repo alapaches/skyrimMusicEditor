@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     QFile styleFile(":/styles/skyrim_theme.qss");
     QSettings settings("SkyrimMusicEditor", "SkyrimMusicEditor");
     QString lang = settings.value("app/language", "en").toString();
-    QString appVersion = "3.0";
+    QString appVersion = "3.2";
 
     if (styleFile.open(QFile::ReadOnly | QFile::Text)) {
         QString style = QLatin1String(styleFile.readAll());
@@ -29,6 +29,9 @@ int main(int argc, char *argv[])
         ChangelogDialog changelog(appVersion, lang);
         changelog.exec();
     }
+
+    // MainWindow gere ensuite sa propre traduction (changement de langue a chaud).
+    a.removeTranslator(&appTranslator);
 
     MainWindow w;
     w.show();
